@@ -1,4 +1,4 @@
-2026年10月6日 \
+# 2026年10月6日 
 参考视频：https://www.youtube.com/watch?v=WEDHp7pNDaA \
 参考blog：https://blog.imxiaohe.com/2026/09/123.html
 
