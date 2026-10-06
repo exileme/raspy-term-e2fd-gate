@@ -460,7 +460,28 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "cf.3666888.xyz:443,cdn.7zz.cn:443,api.gzcrtw.com:443,fn.130519.xyz:443,cf.xreak.top:443"
+        "cf.3666888.xyz:443,cdn.7zz.cn:443,api.gzcrtw.com:443,fn.130519.xyz:443,cf.xreak.top:443,"
+        "cf.nyanya.moe:443,cf.1o.ee:443,saas.sin.fan:443,www.5199dy.com:443,cf2.996616.xyz:443,"
+        "224322.xyz:443,p.etime.vip:443,www.mfyx.cn:443,saas.072159.xyz:443,cdn.204910.best:443,"
+        "cdn.667891.xyz:443,bbs.alipansou.com:443,openai.com:443,m.iyf.tv:443,www.mastervolt.com:443,"
+        "mfa.gov.ua:443,www.bis.gov:443,thebeat.gehealthcare.com:443,serviceshub.samsclub.com:443,"
+        "www.udacity.com:443,securecircle.com:443,coreweave.com:443,jobsdb.com:443,academy.7shifts.com:443,"
+        "www.vmware.com:443,www.shopify.com:443,kickstarter.com:443,funko.com:443,53.fs1.hubspotusercontent-na1.net:443,"
+        "www.wto.org:443,guide.for.edu.sg:443,prizepicks.com:443,staticdelivery.nexusmods.com:443,www.giannidelprete.it:443,"
+        "login.rockwellautomation.com:443,constitution.congress.gov:443,store.ubi.com:443,uspto.gov:443,markmonitor.com:443,"
+        "www.vastnovel.com:443,stores.staples.com:443,www.zendesk.com:443,egov.uscis.gov:443,spring.io:443,www.blibli.com:443,"
+        "www.deepl.com:443,www.gov.il:443,versantstore.pearson.com:443,linear.app:443,www.sage.com:443,aimagazine.com:443,help.kolet.com:443,9mod.com:443,"
+        "www.5199dy.com:443,bbs.alipansou.com:443,saas.sin.fan:443,cf.92555.xyz:443,cf.877774.xyz:443,"
+        "cdn.204910.best:443,www.galgamex.net:443,cdn.555586.xyz:443,constitution.congress.gov:443,"
+        "www.sofi.com:443,ex.warspite.dpdns.org:443,www.dentoncounty.gov:443,aandd.co.jp:443,"
+        "sellerlogic.com:443,99.co:443,www.botafogo.com.br:443,www.stayaka.com:443,"
+        "dash.domain.digitalplat.org:443,help.kolet.com:443,cloudflare.tv:443,"
+        "s.bookcdn.com:443,qoj.ac:443,www.mlkj888.com:443,academy.mastercard.com:443,"
+        "themeisle.com:443,www.scayle.com:443,01-qq.com:443,dev.graco.com:443,"
+        "alternativeto.net:443,pubs.acs.org:443,dynadot.com:443,www.4429.com.cn:443,"
+        "autz.org:443,de.102198.xyz:443,t.213891.xyz:443,rargb.to:443,"
+        "informahealthcare.com:443,api-scout.reflexapi.net:443,"
+        "emos.best:443,sanctuarywealth.com:443"
         ,
     ).split(",")
     if h.strip()
