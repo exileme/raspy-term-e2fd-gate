@@ -11,10 +11,10 @@ Node.js 20 弃用警告
 # 改成新版
 - uses: actions/checkout@v5
 - uses: actions/setup-python@v6
- \
+ \ \ \
 2.修正部署中yml文件的CHECK_WORKER变量 \
 因源引用的YTB-小何爱分享的检测worker地址，用户过多导致Action执行时无法正常访问，报522错误 \
-个人认为视频中第一个部署的就可以用到这里，毕竟视频中只看到了部署这个，但是没看到哪里使用，虽然vpngate.py修正过变量是指向这个URL，但是部署执行的yml中的还是YTB-小何爱分享，故此修正这里指向自己的URL(即raspy-term-e2fd workers)
+个人认为视频中第一个部署的就可以用到这里，毕竟视频中只看到了部署这个，但是没看到哪里使用，虽然vpngate.py修正过变量是指向这个URL，但是部署执行的yml中的还是YTB-小何爱分享，故此修正这里指向自己的URL(即raspy-term-e2fd workers) \
  \
 3.在 vpngate.py 中修改三处核心配置 \
 3.1 替换 Worker 测速检测端 \
