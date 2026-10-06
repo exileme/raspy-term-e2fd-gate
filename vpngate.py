@@ -460,18 +460,8 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "cf.3666888.xyz:443,cdn.7zz.cn:443,api.gzcrtw.com:443,fn.130519.xyz:443,cf.xreak.top:443,"
-        "www.5199dy.com:443,bbs.alipansou.com:443,saas.sin.fan:443,cf.92555.xyz:443,cf.877774.xyz:443,"
-        "cdn.204910.best:443,www.galgamex.net:443,cdn.555586.xyz:443,constitution.congress.gov:443,"
-        "www.sofi.com:443,ex.warspite.dpdns.org:443,www.dentoncounty.gov:443,aandd.co.jp:443,"
-        "sellerlogic.com:443,99.co:443,www.botafogo.com.br:443,www.stayaka.com:443,"
-        "dash.domain.digitalplat.org:443,help.kolet.com:443,cloudflare.tv:443,"
-        "s.bookcdn.com:443,qoj.ac:443,www.mlkj888.com:443,academy.mastercard.com:443,"
-        "themeisle.com:443,www.scayle.com:443,01-qq.com:443,dev.graco.com:443,"
-        "alternativeto.net:443,pubs.acs.org:443,dynadot.com:443,www.4429.com.cn:443,"
-        "autz.org:443,de.102198.xyz:443,t.213891.xyz:443,rargb.to:443,"
-        "informahealthcare.com:443,api-scout.reflexapi.net:443,"
-        "emos.best:443,sanctuarywealth.com:443",
+        "cf.3666888.xyz:443,cdn.7zz.cn:443,api.gzcrtw.com:443,fn.130519.xyz:443,cf.xreak.top:443"
+        ,
     ).split(",")
     if h.strip()
 ]
