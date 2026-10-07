@@ -1,3 +1,7 @@
+# 2026年10月7日
+停止执行Actions,发觉自动执行后，CF对应的edgetunnel所属workers无法访问，域名访问就522，用workers源dev地址就1101错误。  
+删除CF中的workers，不再使用
+
 # 2026年10月6日 
 参考视频：https://www.youtube.com/watch?v=WEDHp7pNDaA \
 参考blog：https://blog.imxiaohe.com/2026/09/123.html
